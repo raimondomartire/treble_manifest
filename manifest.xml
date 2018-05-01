@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="phh" fetch="https://github.com/phhusson/" />
+<remote name="ray" fetch="https://github.com/raimondomartire/" />
 <!--
      (device boot) means those contain device-specific fixes which are required to boot
      (boot) means it is required to boot
@@ -39,5 +40,5 @@
 <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="phh" revision="android-vts-8.0_r4-phh" />
 
 <project path="vendor/hardware_overlay" name="vendor_hardware_overlay" remote="phh" revision="master" />
-<project path="device/phh/treble" name="device_phh_treble" remote="phh" revision="android-8.0" />
+<project path="device/phh/treble" name="device_phh_treble" remote="ray" revision="android-8.1" />
 </manifest>
